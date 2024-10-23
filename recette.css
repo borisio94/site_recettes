@@ -1,0 +1,120 @@
+ body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+p.catgorie{
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 80px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.contenu{
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+.centre{
+    text-align: center;
+    width: 100%;
+}
+div.catgorie{
+    margin-bottom: -20px;
+}
+div.separateur{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.info{position: absolute; 
+            bottom: 0; 
+            width: 100%; 
+            color: white; 
+            background-color: #6C829DC0; 
+            height: 80px;
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+img.info{
+  display: block;
+  max-height: 400px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  border-bottom: 5px solid #6C829DC0;
+  padding-bottom: 5px;
+}
+div.colonne1, div.colonne2{
+  width: 45%;
+}
+div.colonne1{
+  display: inline-block;
+  /*background-color: lightblue;*/
+  margin-right: 10%;
+}
+div.colonne2{
+  float: right;
+}
+
+div.ingredien p{
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid lightgray;
+  padding: 10px 0;
+  margin: 2px;
+}
+
+table.preparation p.numero{
+  background-color: #6C829DC0;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0;
+}
+
+table.preparation td{
+  padding: 5px 7px 5px 0px;
+}
+
+
+*{
+  overflow: auto;
+}
